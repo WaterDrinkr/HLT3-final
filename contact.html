@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">  
+    <link rel="stylesheet" href="styles.css">
+    <script src="form.js"></script>
+</head>
+   <body class="play">
+      <div>
+         <a href="Index.html">
+            Home
+            <img src="home.png" class="img">
+         </a>
+         <a href="about.html">
+            About us!
+            <img src="about.png" class="img">
+         </a>
+         <a href="upcoming.html">
+            Upcoming courses!
+            <img src="upcoming.png" class="img">
+         </a>
+      </div>
+      <br>
+      <div class="divbox">
+      <div style="text-align: center; color: darkblue;">
+         <h2> Fill out below form to enquire about upcoming courses! </h2>
+      </div>
+          <form style="text-align: center;">
+            <label for="fname"> Enter first name </label>
+            <input type="text" id="fname" name="firstname" 
+            placeholder="Your first name..." onblur="f1()">
+            <p id="fmsg1" class="emsg"></p>
+            <label for="lname"> Enter last name </label>
+            <input type="text" id="lname" name="lastname"
+            placeholder="Your last name..." onblur="f2()">
+            <p id="fmsg2" class="emsg"></p>
+            <label for="pno"> Enter Phone number </label> 
+            <input type="tel" id="pno" name="phonenumber"
+            placeholder="01384 123 456" onblur="f3()">
+            <p id="fmsg3" class="emsg"></p>
+            <label for="email"> Please provide Email address </label>
+            <input type="email" id="email" name="email" 
+            placeholder="joeblogs@hotmail.com" onblur="f4()">
+            <p id="fmsg4" class="emsg"></p>
+            <label for="gender"> Please provide gender </label>
+            <input type="radio" id="gndr" name="gender">
+            <label for="male"> Male </label>
+            <br>
+            <input type='radio' id="gndr" name='gender'>
+            <label for="female"> Female </label>
+            <br>
+            <input type="radio" id="gndr" name="gender">
+            <label for="other"> Other, please elaborate </label>
+            <input type="text" id="gndr">
+            <br>
+            <input type="radio" id="gndr" name="gender">
+            <label for="pnts"> Prefer not to say </label>
+            <br>
+            <p id="fmsg5" class="emsg"></p>
+            <input type="submit">
+          </form>
+          </div>
+          <footer>
+            <p>
+               <marquee>
+                  <a href="coconutmalled.html">
+                     <img src="youtube.png" alt="Sorry" class="img">
+               </a>
+               
+                  <a href='https://en-gb.facebook.com/'>
+                     <img src="facebook.png" alt="Sorry" class="img">
+               </a>
+               
+               <a href="https://twitter.com/mistrbistr?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @mistrbistr</a>
+               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+         
+                  <a href="https://techtalent.academy/">
+                     <img src="globe.png" alt="Sorry image not found" class="img">
+               
+                  </a>
+               </marquee>
+            </p>
+         </footer>
+       </body>
+</html>

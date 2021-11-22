@@ -1,0 +1,39 @@
+.horsey {
+    text-align: center;
+    color: darkorchid;
+}
+
+.pony {
+    text-align: center;
+    color: darkorchid;
+}
+
+.play { 
+    background-image: url(unicorn.jpeg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-position: top;
+    background-color:pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.img {
+    border-radius: 20%; 
+    width: 60px; 
+    height: 60px; 
+    text-align: center;
+}
+
+
+.emsg {
+    color: red;
+}
+
+.divbox {
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245, 0.7);
+    max-width: fit-content;
+}
